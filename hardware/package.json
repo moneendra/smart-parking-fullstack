@@ -1,0 +1,14 @@
+{
+  "name": "smart-parking-serial-bridge",
+  "version": "1.0.0",
+  "description": "Relays Arduino IR-sensor readings to the Smart Parking backend API",
+  "main": "serial_bridge.js",
+  "scripts": {
+    "start": "node serial_bridge.js"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "serialport": "^12.0.0"
+  }
+}
